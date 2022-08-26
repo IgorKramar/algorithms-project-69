@@ -1,0 +1,44 @@
+{
+  "name": "search-engine-hexlet",
+  "version": "1.0.0",
+  "description": "Educational project within the Hexlet course",
+  "main": "index.js",
+  "simple-git-hooks": {
+    "pre-push": "make lint"
+  },
+  "scripts": {
+    "start": "node ./index.js",
+    "test": "mocha ./__tests__ --reporter spec --ui bdd"
+  },
+  "engines": {
+    "node": ">=14"
+  },
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IgorKramar/algorithms-project-69.git"
+  },
+  "keywords": [
+    "hexlet"
+  ],
+  "author": "IgorKramar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IgorKramar/algorithms-project-69/issues"
+  },
+  "homepage": "https://github.com/IgorKramar/algorithms-project-69#readme",
+  "devDependencies": {
+    "@jest/globals": "^29.0.1",
+    "chai": "^4.3.6",
+    "eslint": "^8.22.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-jest": "^26.8.7",
+    "mocha": "^10.0.0",
+    "npm-check-updates": "^16.0.6",
+    "simple-git-hooks": "^2.8.0"
+  },
+  "dependencies": {
+    "lorem-ipsum": "^2.0.8"
+  }
+}
